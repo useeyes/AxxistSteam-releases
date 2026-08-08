@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="axxist-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1b24"/>
+      <stop offset="1" stop-color="#0b0b10"/>
+    </linearGradient>
+    <linearGradient id="axxist-mark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8b7cff"/>
+      <stop offset="1" stop-color="#5a4bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#axxist-bg)"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#axxist-mark)"
+    d="M512 160L832 864H700.8L636.2 700.8H387.8L323.2 864H192L512 160ZM512 448L443.4 636.8H580.6L512 448Z"/>
+</svg>

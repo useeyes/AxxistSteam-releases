@@ -1,0 +1,87 @@
+﻿AxxistSteam Proprietary License
+
+Copyright (c) 2026 AxxistSteam. All rights reserved.
+
+## Proprietary Software License
+
+This software and associated documentation files (the "Software") are the
+proprietary and confidential property of AxxistSteam.
+
+### Grant of License
+
+Subject to the terms and conditions of this license, AxxistSteam grants you a
+non-exclusive, non-transferable, revocable license to use the Software solely
+for your personal, non-commercial purposes.
+
+### Restrictions
+
+You may NOT:
+
+1. **Redistribute**: Distribute, sublicense, rent, lease, or lend the Software
+   to any third party.
+
+2. **Reverse Engineer**: Decompile, disassemble, or otherwise attempt to derive
+   the source code of the Software, except as permitted by applicable law.
+
+3. **Modify**: Create derivative works based on the Software without explicit
+   written permission from AxxistSteam.
+
+4. **Commercial Use**: Use the Software for any commercial purpose or in any
+   commercial setting without a separate commercial license agreement.
+
+5. **Remove Notices**: Remove, alter, or obscure any copyright, trademark, or
+   other proprietary notices in the Software.
+
+### Steam Automation Disclaimer
+
+The Software interacts with Steam services provided by Valve Corporation. You
+acknowledge and agree that:
+
+1. Use of automation tools may violate Steam's Terms of Service.
+2. AxxistSteam is not affiliated with, endorsed by, or sponsored by Valve
+   Corporation.
+3. You use the Software at your own risk. AxxistSteam is not responsible for
+   any actions taken against your Steam account, including but not limited to
+   VAC bans, trade bans, or account suspensions.
+
+### No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+### Limitation of Liability
+
+IN NO EVENT SHALL AXXISTSTEAM BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF
+PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM:
+
+1. Your access to or use of or inability to access or use the Software;
+2. Any conduct or content of any third party on the Software;
+3. Any content obtained from the Software;
+4. Unauthorized access, use or alteration of your transmissions or content.
+
+### Termination
+
+This license is effective until terminated. Your rights under this license will
+terminate automatically without notice if you fail to comply with any of its
+terms. Upon termination, you must destroy all copies of the Software.
+
+### Governing Law
+
+This license shall be governed by and construed in accordance with the laws of
+Germany, without regard to its conflict of law provisions.
+
+### Contact
+
+For questions about this license or to request a commercial license, please
+contact: legal@axxiststeam.com
+
+---
+
+**Last Updated**: January 8, 2026
+**Version**: 1.0

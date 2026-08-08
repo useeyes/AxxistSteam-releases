@@ -1,0 +1,75 @@
+name: Validate manifests
+
+# Validates the update manifests on every push/PR that touches them - a malformed latest.json
+# would break update checks in every installed app, so it never reaches main unnoticed.
+
+on:
+  push:
+    paths:
+      - 'latest.json'
+      - 'update.json'
+      - 'history.json'
+      - 'notifications.json'
+  pull_request:
+    paths:
+      - 'latest.json'
+      - 'update.json'
+      - 'history.json'
+      - 'notifications.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON syntax
+        run: |
+          set -e
+          for f in latest.json update.json history.json notifications.json; do
+            if [ -f "$f" ]; then
+              python3 -c "import json; json.load(open('$f'))" && echo "OK: $f"
+            fi
+          done
+
+      - name: Validate latest.json shape
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+
+          m = json.load(open('latest.json'))
+          errors = []
+          if not isinstance(m.get('version'), str) or not m['version']:
+              errors.append('missing/invalid "version"')
+          if 'platforms' not in m or not isinstance(m['platforms'], dict):
+              errors.append('missing/invalid "platforms"')
+          for platform, entry in m.get('platforms', {}).items():
+              if 'url' not in entry:
+                  errors.append(f'{platform}: missing "url"')
+              if 'signature' not in entry:
+                  errors.append(f'{platform}: missing "signature"')
+
+          if errors:
+              print('latest.json validation failed:')
+              for e in errors:
+                  print(' -', e)
+              sys.exit(1)
+          print('latest.json shape OK')
+          EOF
+
+      - name: Validate history.json shape
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+
+          h = json.load(open('history.json'))
+          if not isinstance(h, list):
+              print('history.json must be a top-level array')
+              sys.exit(1)
+          for entry in h:
+              for key in ('version', 'publishedAt'):
+                  if key not in entry:
+                      print(f'history entry missing "{key}":', entry)
+                      sys.exit(1)
+          print(f'history.json OK ({len(h)} entries)')
+          EOF

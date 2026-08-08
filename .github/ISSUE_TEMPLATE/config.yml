@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord Community
+    url: https://discord.gg/k3fara4U64
+    about: Quick questions and chat - join us on Discord
+  - name: 📖 Documentation
+    url: https://github.com/useeyes/AxxistSteam-releases/tree/main/docs
+    about: Installation, updates and privacy guides
+  - name: 🔒 Security Vulnerability
+    url: https://github.com/useeyes/AxxistSteam-releases/security/advisories/new
+    about: Report security issues privately - never in public issues
