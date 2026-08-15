@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.svg" alt="AxxistSteam Logo" width="140" height="140" />
+<img src="assets/logo.svg" alt="AxxistSteam Logo" width="280" height="280" />
 
 # AxxistSteam
 
@@ -136,28 +136,42 @@ Older versions: see the [full releases page](../../releases).
 
 ## 🗺 Roadmap
 
-- [x] Multi-account support with profile dashboard
-- [x] Playtime booster, card farming, achievement unlocker
-- [x] Free games & free packages auto-collect
-- [x] In-app update system with release history
-- [ ] Inventory manager improvements
-- [ ] Trading-card price overview & market integration
-- [ ] Per-account scheduling (start/stop tools on a timetable)
-- [ ] macOS build
-- [ ] Community translations via Crowdin
+The next major direction is **AxxistSteam V2.0.0 — Steam Market Update**: bringing the market side
+of your Steam account into the same dashboard your library already lives in. Early, deliberately
+high-level themes (no dates, no promises - the details are still being designed):
+
+- 💹 **Market automation** - letting routine market actions run by your rules instead of by hand.
+  > ⚠️ Anything that buys or sells on the Steam Market uses your account at *your* risk and may
+  > conflict with Steam's rules (rate limits, market restrictions, or worse). It would never be an
+  > official Steam feature, and it is not available today.
+- 🔔 **Price alerts** - get told when items you care about move.
+- 📚 **Duplicate-item visibility** - see stacked duplicates across your inventory at a glance.
+- 📈 **Profit/loss statistics** - what your market activity actually gained or cost you.
+- 🕰 **Sales history** - your market transactions, browsable in one place.
+- 🔍 **Steam Market analysis** - trends and pricing context for the items you hold.
+- 💼 **Portfolio-style analysis** - your inventory's market value broken down like a portfolio.
+
+Already shipped: multi-account dashboard with per-account analytics, playtime booster with presets
+and persistent analytics, card farming with queue/blacklist, achievement unlocker with ordering and
+schedules, free games & free packages auto-collect, and a signed in-app updater.
 
 Vote on features or suggest your own on [Discord](https://discord.gg/k3fara4U64) or via
 [feature request](../../issues/new?template=feature_request.yml).
 
 ---
 
-## 🔒 Privacy & Security
+## 🔒 Privacy, Security & Legal
 
-AxxistSteam talks to Steam's official APIs only and never sends your data anywhere else. Your
-credentials stay in your OS keychain. Update artifacts are cryptographically signed.
-
-- [Privacy Policy](docs/PRIVACY.md)
-- [Security Policy](SECURITY.md)
+- Your Steam credentials and tokens stay in your OS keychain and are only ever sent to Steam
+  itself; the app has no telemetry at all. The full, concrete data-flow list (what is stored, what
+  is sent where, and when) is in the [Privacy Policy](docs/PRIVACY.md).
+- Updater artifacts are minisign-signed and verified in-app before installing; installers are
+  distributed exclusively through this repository's Releases. Details and vulnerability reporting:
+  [Security Policy](SECURITY.md).
+- The source code is private, but developers can request a **manual code checkup** of the current
+  version via [Discord](https://discord.gg/k3fara4U64) - see the Security Policy for how that works.
+- [Terms of Use](docs/TERMS.md) · [Privacy Policy](docs/PRIVACY.md) · [Security Policy](SECURITY.md)
+  · [License](LICENSE)
 
 ---
 

@@ -49,11 +49,32 @@ Out of scope:
 ## Update artifact verification
 
 Every updater artifact is signed with [minisign](https://jedisct1.github.io/minisign/). The app
-verifies the signature against a baked-in public key before installing an update - a tampered
-artifact is rejected automatically.
+verifies the signature against a baked-in public key before installing an update - a tampered or
+unsigned artifact is rejected automatically. Note that this verifies the update channel, not the
+initial download itself: get installers only from this repository's
+[Releases](../../releases) page.
 
 ## Credential handling
 
-- Steam session tokens and the Steam Web API key are stored in the **OS keychain**
-  (Windows Credential Manager / libsecret on Linux), never in plain text.
+- Steam session tokens, Steam Community cookies, and your own Steam Web API key (if you set one)
+  are stored in the **OS keychain** (Windows Credential Manager / a running Secret Service such as
+  libsecret on Linux), never in plain-text files.
 - AxxistSteam never transmits your credentials anywhere except Steam's own sign-in endpoints.
+- Passwords entered at sign-in are held in memory only for the duration of the login handshake and
+  are never written to disk; what persists is Steam's own refresh token (see above).
+
+## Source access / code checkup
+
+AxxistSteam's source code is private (see [LICENSE](LICENSE)). No automated source-scanning or
+audit infrastructure exists, and we won't pretend otherwise. If you are a developer and want to
+look before you trust: **we offer a manual code checkup** - ask on the official
+[AxxistSteam Discord](https://discord.gg/k3fara4U64) and, when arranged with a maintainer, you get
+temporary access to inspect the current version's source and ask questions about it.
+
+## A note on absolute claims
+
+No software is "100% secure", and this app is no exception. What we can point at concretely is the
+behavior documented above and in the [Privacy Policy](docs/PRIVACY.md): credentials in the OS
+keychain, no telemetry, signed updates, and a network surface limited to Steam, GitHub, and a
+static asset CDN. If you find a gap between this document and the real behavior, that is a
+vulnerability report - please tell us (see above).
