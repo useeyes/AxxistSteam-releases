@@ -74,15 +74,6 @@ Idle games, farm trading cards, unlock achievements, and collect free games - al
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-  <img src="assets/screenshots/dashboard.webp" alt="AxxistSteam Dashboard" width="80%" />
-  <p><em>The AxxistSteam dashboard</em></p>
-</div>
-
----
-
 ## ⬇ Download
 
 Get the latest installer from the [**Latest Release**](../../releases/latest) page:
@@ -114,7 +105,8 @@ More details: [**docs/UPDATES.md**](docs/UPDATES.md)
 ## 🚀 Latest Release
 
 <!-- LATEST-RELEASE:START -->
-**[v1.0.0](../../releases/latest)** - first public release of AxxistSteam.
+**[v1.0.0 Alpha](../../releases/latest)** - first public alpha release of AxxistSteam, published
+on 2026-08-15.
 <!-- LATEST-RELEASE:END -->
 
 The complete history of every published version lives in the [release history](#-release-history)
@@ -127,7 +119,7 @@ below and, machine-readable, in [`history.json`](history.json).
 <!-- RELEASE-HISTORY:START -->
 | Version | Date | Notes |
 |---------|------|-------|
-| [v1.0.0](../../releases/tag/v1.0.0) | 2026-08-08 | First public release |
+| [v1.0.0 Alpha](../../releases/tag/v1.0.0) | 2026-08-15 | First public alpha release |
 <!-- RELEASE-HISTORY:END -->
 
 Older versions: see the [full releases page](../../releases).

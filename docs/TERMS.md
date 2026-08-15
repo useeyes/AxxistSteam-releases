@@ -1,6 +1,6 @@
 # Terms of Use (User Agreement)
 
-**Last updated: 2026-08-14**
+**Last updated: 2026-08-15**
 
 These terms govern your use of AxxistSteam ("the Software"), a proprietary desktop application
 distributed through this repository's [GitHub Releases](../../../releases). By downloading,
