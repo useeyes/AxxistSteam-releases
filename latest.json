@@ -1,7 +1,25 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "displayVersion": "1.0.1 Alpha",
   "major": false,
-  "notes": "Erste öffentliche Alpha-Version von AxxistSteam.",
-  "pub_date": "2026-08-15T00:00:00Z",
-  "platforms": {}
+  "notes": "Neu:\n- Anonym Modus\n- Dashboard Analyse\n\nBug Fixes:\n- Fehler auf der Games-Seite behoben\n- Loading-Probleme behoben",
+  "features": [
+    "Anonym Modus",
+    "Dashboard Analyse"
+  ],
+  "fixes": [
+    "Fehler auf der Games-Seite behoben",
+    "Loading-Probleme behoben"
+  ],
+  "pub_date": "2026-08-19T21:52:10Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjdBeXlFaUNoSVNhNGh4L3F3YXlOTmN5OVVMVThZaXQvbXdpakJxeGRqODhnOXI3elBmZlpxQ1ZaVFpvdTFXZEdJS2UvaFlheUZkbUU2eWFqSUFBd1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTc2MjQ2CWZpbGU6QXh4aXN0U3RlYW1fMS4wLjFfeDY0LXNldHVwLm5zaXMuemlwCnZ0N0w5UVZ3TFc5TnVrMjBxWlBaa2F2L2JOdmd0ckM4THVwcUU5Z1EzOXdwdkd0OE4vUjhaSGZHcklRL08zMFpLREVwemRBRk5uVUpHRU1IK2JES0RnPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.1/AxxistSteam_1.0.1_x64-setup.nsis.zip"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjJSY0RsbHo4anFqUFdnb3FyQnpjSXg1UktSZGh0OEdxWmcxREUrTFJFT1RUNk43dFg5SnVXTWlOTmxBTGlGS0RYVlhXdm9SUEdlZTJOb0hkamptR0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTc2MTQ4CWZpbGU6QXh4aXN0U3RlYW1fMS4wLjFfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmtuNzI2bFRDU1FnNnlVQ3dVa2lNM3ZuNm1VMnpid1RWWktWTHMxU0lucTVPaklaUVl3Rlc1VnNlTk95OEFmRlF0VnV5TlYxcXhVUnpHRUVJdExsRERBPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.1/AxxistSteam_1.0.1_amd64.AppImage.tar.gz"
+    }
+  }
 }

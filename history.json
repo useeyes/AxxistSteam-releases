@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.0.1",
+    "name": "AxxistSteam v1.0.1 Alpha",
+    "notes": "Neu:\n- Anonym Modus\n- Dashboard Analyse\n\nBug Fixes:\n- Fehler auf der Games-Seite behoben\n- Loading-Probleme behoben",
+    "publishedAt": "2026-08-19T21:52:11Z",
+    "url": "https://github.com/useeyes/AxxistSteam-releases/releases/tag/v1.0.1"
+  },
+  {
     "version": "1.0.0",
     "name": "AxxistSteam v1.0.0 Alpha",
     "notes": "First public alpha release of AxxistSteam, published on 2026-08-15.",
