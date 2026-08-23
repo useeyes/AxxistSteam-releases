@@ -1,25 +1,29 @@
 {
-  "version": "1.0.1",
-  "displayVersion": "1.0.1 Alpha",
+  "version": "1.0.3",
+  "displayVersion": "1.0.3 Beta",
   "major": false,
-  "notes": "Neu:\n- Anonym Modus\n- Dashboard Analyse\n\nBug Fixes:\n- Fehler auf der Games-Seite behoben\n- Loading-Probleme behoben",
+  "notes": "Neu:\n- Theme-System mit 18 Themes (u. a. Galaxy-, ATM-, Digital-Payment- und christliche Themes)\n- Interaktive Kinetic-Themes mit Reaktion auf Mauszeiger und Klicks\n- Discord Rich Presence inkl. Sitzungsdauer, Tool-Status und Quicklinks\n- Analytics-HQ: Accountentwicklung, Vergleichsmodus und dauerhafte Snapshots\n- Einstellungen als neues Control Center mit Suche\n\nVerbesserungen:\n- UI-Optimierung an Dashboard und Navigation\n- Dashboard-Erweiterung: laufende Tools auf einen Blick\n- Sprach-Fixes: vollst\u00e4ndige deutsche \u00dcbersetzung und konsistente Begriffe\n\nBug Fixes:\n- Update-System wurde final repariert\n- Diverse Fehler behoben",
   "features": [
-    "Anonym Modus",
-    "Dashboard Analyse"
+    "Theme-System mit 18 Themes (Galaxy, ATM Terminal, Digital Payment, Christian, Kinetic u. v. m.)",
+    "Interaktive Kinetic-Themes: Gitter reagiert auf Mauszeiger und Klicks",
+    "Discord Rich Presence: Tool-Status, Sitzungsdauer, GitHub- und Discord-Buttons",
+    "Analytics-HQ: langfristige Accountentwicklung mit Verlaufs-Charts und Vergleichsmodus",
+    "Einstellungen: neues Control Center mit Suche, Kategorien und Animations-Regler"
   ],
   "fixes": [
-    "Fehler auf der Games-Seite behoben",
-    "Loading-Probleme behoben"
+    "Update-System wurde final repariert",
+    "Sprach-Fixes: fehlende und inkonsistente \u00dcbersetzungen korrigiert",
+    "Diverse UI- und Dashboard-Bugfixes"
   ],
-  "pub_date": "2026-08-19T21:52:10Z",
+  "pub_date": "2026-08-23T20:15:42Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjdBeXlFaUNoSVNhNGh4L3F3YXlOTmN5OVVMVThZaXQvbXdpakJxeGRqODhnOXI3elBmZlpxQ1ZaVFpvdTFXZEdJS2UvaFlheUZkbUU2eWFqSUFBd1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTc2MjQ2CWZpbGU6QXh4aXN0U3RlYW1fMS4wLjFfeDY0LXNldHVwLm5zaXMuemlwCnZ0N0w5UVZ3TFc5TnVrMjBxWlBaa2F2L2JOdmd0ckM4THVwcUU5Z1EzOXdwdkd0OE4vUjhaSGZHcklRL08zMFpLREVwemRBRk5uVUpHRU1IK2JES0RnPT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.1/AxxistSteam_1.0.1_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjRFY0FrWkxGUHQvMXdtTTNLbVlKOW42WkpSSm50ZmtmK0c2TjN0OEpPdUFjVTE1MUFzbnZxaFR0R003eFNrQUhpY0Q2dUZtSWs1SklhWEV1ZmNia2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTE1ODgzCWZpbGU6QXh4aXN0U3RlYW1fMS4wLjNfeDY0LXNldHVwLm5zaXMuemlwCm5HeG15UXNWeDBKVzA3TzdBa0grVklEVkhZY1ZrY0hpMk1SWFh5QzIzSlhldjNrOXNIRmxDU0F2NXNuemR5NXZsMWliSDUvdjZ4aklIVEVzZ1QzUkNBPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.3/AxxistSteam_1.0.3_x64-setup.nsis.zip"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjJSY0RsbHo4anFqUFdnb3FyQnpjSXg1UktSZGh0OEdxWmcxREUrTFJFT1RUNk43dFg5SnVXTWlOTmxBTGlGS0RYVlhXdm9SUEdlZTJOb0hkamptR0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTc2MTQ4CWZpbGU6QXh4aXN0U3RlYW1fMS4wLjFfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmtuNzI2bFRDU1FnNnlVQ3dVa2lNM3ZuNm1VMnpid1RWWktWTHMxU0lucTVPaklaUVl3Rlc1VnNlTk95OEFmRlF0VnV5TlYxcXhVUnpHRUVJdExsRERBPT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.1/AxxistSteam_1.0.1_amd64.AppImage.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjV3WERNUkNJNElyTjRKTHEwWnQzOTc4MXIwckVJbXc3d2hEMmV4WGJxUVRDU29zM0NXZzRoN0hZSkl1bkFPMi9PZ2FaWUZBQnM0MWhtNWlJbHBGTmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTE1MTgyCWZpbGU6QXh4aXN0U3RlYW1fMS4wLjNfYW1kNjQuQXBwSW1hZ2UudGFyLmd6ClJTeXRnRFNBZ3laMzJ5NXRiVEJheHJEZ0UzUzBuYXh4cmc2Wm9FZXNuUUIrTm5MTnQxV2F0V2FIVzErV2RBTzVFTnZFSjRnNzFRSjBIVXdiNU4rTUJRPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.3/AxxistSteam_1.0.3_amd64.AppImage.tar.gz"
     }
   }
 }
