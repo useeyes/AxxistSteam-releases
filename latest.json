@@ -1,29 +1,25 @@
 {
-  "version": "1.0.3",
-  "displayVersion": "1.0.3 Beta",
+  "version": "1.0.4",
+  "displayVersion": "1.0.4 Beta",
   "major": false,
-  "notes": "Neu:\n- Theme-System mit 18 Themes (u. a. Galaxy-, ATM-, Digital-Payment- und christliche Themes)\n- Interaktive Kinetic-Themes mit Reaktion auf Mauszeiger und Klicks\n- Discord Rich Presence inkl. Sitzungsdauer, Tool-Status und Quicklinks\n- Analytics-HQ: Accountentwicklung, Vergleichsmodus und dauerhafte Snapshots\n- Einstellungen als neues Control Center mit Suche\n\nVerbesserungen:\n- UI-Optimierung an Dashboard und Navigation\n- Dashboard-Erweiterung: laufende Tools auf einen Blick\n- Sprach-Fixes: vollst\u00e4ndige deutsche \u00dcbersetzung und konsistente Begriffe\n\nBug Fixes:\n- Update-System wurde final repariert\n- Diverse Fehler behoben",
+  "notes": "Neu:\n- Update-Reparatur: Endlosschleife bei fehlgeschlagenen Updates (Linux AppImage) behoben\n- Automatische Wiederholung wird nach einem Fehlschlag pausiert \u2013 manuelle Installation bleibt m\u00f6glich\n- Erweiterte Update-Diagnose f\u00fcr pr\u00e4zise Fehlermeldungen\n\nBug Fixes:\n- Update-Vorgang h\u00e4ngt nie mehr vor dem Download\n- Stabilit\u00e4tsfixes im Update-Ablauf",
   "features": [
-    "Theme-System mit 18 Themes (Galaxy, ATM Terminal, Digital Payment, Christian, Kinetic u. v. m.)",
-    "Interaktive Kinetic-Themes: Gitter reagiert auf Mauszeiger und Klicks",
-    "Discord Rich Presence: Tool-Status, Sitzungsdauer, GitHub- und Discord-Buttons",
-    "Analytics-HQ: langfristige Accountentwicklung mit Verlaufs-Charts und Vergleichsmodus",
-    "Einstellungen: neues Control Center mit Suche, Kategorien und Animations-Regler"
+    "Loop-Schutz: Nach einem fehlgeschlagenen Auto-Update wird nicht mehr endlos neu versucht",
+    "Bessere Diagnose: Protokollierung jeder Update-Phase inkl. Linux/AppImage-Umgebung"
   ],
   "fixes": [
-    "Update-System wurde final repariert",
-    "Sprach-Fixes: fehlende und inkonsistente \u00dcbersetzungen korrigiert",
-    "Diverse UI- und Dashboard-Bugfixes"
+    "App beendet sich w\u00e4hrend des Updates nicht mehr vorzeitig ohne Ergebnis",
+    "Hilfsprozesse werden erst nach erfolgreichem Download gestoppt"
   ],
-  "pub_date": "2026-08-23T20:15:42Z",
+  "pub_date": "2026-08-23T20:54:18Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjRFY0FrWkxGUHQvMXdtTTNLbVlKOW42WkpSSm50ZmtmK0c2TjN0OEpPdUFjVTE1MUFzbnZxaFR0R003eFNrQUhpY0Q2dUZtSWs1SklhWEV1ZmNia2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTE1ODgzCWZpbGU6QXh4aXN0U3RlYW1fMS4wLjNfeDY0LXNldHVwLm5zaXMuemlwCm5HeG15UXNWeDBKVzA3TzdBa0grVklEVkhZY1ZrY0hpMk1SWFh5QzIzSlhldjNrOXNIRmxDU0F2NXNuemR5NXZsMWliSDUvdjZ4aklIVEVzZ1QzUkNBPT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.3/AxxistSteam_1.0.3_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjlaaWxrbnF3b3RNb3pXWDZ6dWgrMnpEWDlNdzZYSmt0NnAzeGVoWjJNRkxaNXY1NXhKbkNaWTI3am5iaHJyTytEV2VXVlM5aElqVFJHVjZsbis5QmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTE4MzgyCWZpbGU6QXh4aXN0U3RlYW1fMS4wLjRfeDY0LXNldHVwLm5zaXMuemlwCmJ0c1k3bmppamd6cEczSU1pbTlNTTNNeExxOTdHTnpUK3diY2wwRW9NeTVDMFIvTUhSSDRhK3AxNVFDQkpSbFUwSjhsczFkV0ljVXV1RXdsbVhTN0JBPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.4/AxxistSteam_1.0.4_x64-setup.nsis.zip"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjV3WERNUkNJNElyTjRKTHEwWnQzOTc4MXIwckVJbXc3d2hEMmV4WGJxUVRDU29zM0NXZzRoN0hZSkl1bkFPMi9PZ2FaWUZBQnM0MWhtNWlJbHBGTmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTE1MTgyCWZpbGU6QXh4aXN0U3RlYW1fMS4wLjNfYW1kNjQuQXBwSW1hZ2UudGFyLmd6ClJTeXRnRFNBZ3laMzJ5NXRiVEJheHJEZ0UzUzBuYXh4cmc2Wm9FZXNuUUIrTm5MTnQxV2F0V2FIVzErV2RBTzVFTnZFSjRnNzFRSjBIVXdiNU4rTUJRPT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.3/AxxistSteam_1.0.3_amd64.AppImage.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5Ujgwb29Vb0hlc2dLclMwckdZUnRTcTE2YUV6YjE3MVUra3g4eFBud25YYlhwUW5vWDluUCtBV3pGM0I4MlJUSE1ySGdwWnIwamQyeG5oOWg4d3BERmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTE4MjQxCWZpbGU6QXh4aXN0U3RlYW1fMS4wLjRfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CkpiQWh0bkpMY290RlYwWCtIWCtqeDJNajFnbEFLdTM2RzlSVE1CTFBKMXdEOW4vOHBENkw3dkN0NDA2UjFrMEhqWU1xL0ZTN0wxMVZMMHEvMzVPbkNnPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.4/AxxistSteam_1.0.4_amd64.AppImage.tar.gz"
     }
   }
 }
