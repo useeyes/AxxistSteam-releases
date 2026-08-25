@@ -2,13 +2,13 @@
   "version": "1.0.4",
   "displayVersion": "1.0.4 Beta",
   "major": false,
-  "notes": "Neu:\n- Update-Reparatur: Endlosschleife bei fehlgeschlagenen Updates (Linux AppImage) behoben\n- Automatische Wiederholung wird nach einem Fehlschlag pausiert \u2013 manuelle Installation bleibt m\u00f6glich\n- Erweiterte Update-Diagnose f\u00fcr pr\u00e4zise Fehlermeldungen\n\nBug Fixes:\n- Update-Vorgang h\u00e4ngt nie mehr vor dem Download\n- Stabilit\u00e4tsfixes im Update-Ablauf",
+  "notes": "Neu:\n- Update-Reparatur: Endlosschleife bei fehlgeschlagenen Updates (Linux AppImage) behoben\n- Automatische Wiederholung wird nach einem Fehlschlag pausiert – manuelle Installation bleibt möglich\n- Erweiterte Update-Diagnose für präzise Fehlermeldungen\n\nBug Fixes:\n- Update-Vorgang hängt nie mehr vor dem Download\n- Stabilitätsfixes im Update-Ablauf",
   "features": [
     "Loop-Schutz: Nach einem fehlgeschlagenen Auto-Update wird nicht mehr endlos neu versucht",
     "Bessere Diagnose: Protokollierung jeder Update-Phase inkl. Linux/AppImage-Umgebung"
   ],
   "fixes": [
-    "App beendet sich w\u00e4hrend des Updates nicht mehr vorzeitig ohne Ergebnis",
+    "App beendet sich während des Updates nicht mehr vorzeitig ohne Ergebnis",
     "Hilfsprozesse werden erst nach erfolgreichem Download gestoppt"
   ],
   "pub_date": "2026-08-23T20:54:18Z",
@@ -21,5 +21,29 @@
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5Ujgwb29Vb0hlc2dLclMwckdZUnRTcTE2YUV6YjE3MVUra3g4eFBud25YYlhwUW5vWDluUCtBV3pGM0I4MlJUSE1ySGdwWnIwamQyeG5oOWg4d3BERmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTE4MjQxCWZpbGU6QXh4aXN0U3RlYW1fMS4wLjRfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CkpiQWh0bkpMY290RlYwWCtIWCtqeDJNajFnbEFLdTM2RzlSVE1CTFBKMXdEOW4vOHBENkw3dkN0NDA2UjFrMEhqWU1xL0ZTN0wxMVZMMHEvMzVPbkNnPT0K",
       "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.0.4/AxxistSteam_1.0.4_amd64.AppImage.tar.gz"
     }
+  },
+  "notesLocalized": {
+    "de-DE": "Neu:\n- Update-Reparatur: Endlosschleife bei fehlgeschlagenen Updates (Linux AppImage) behoben\n- Automatische Wiederholung wird nach einem Fehlschlag pausiert – manuelle Installation bleibt möglich\n- Erweiterte Update-Diagnose für präzise Fehlermeldungen\n\nBug Fixes:\n- Update-Vorgang hängt nie mehr vor dem Download\n- Stabilitätsfixes im Update-Ablauf",
+    "en-US": "New:\n- Update repair: fixed the infinite retry loop after failed updates (Linux AppImage)\n- Automatic retries now pause after a failure - manual installation remains available\n- Extended update diagnostics for precise error messages\n\nBug Fixes:\n- The update process no longer hangs before the download starts\n- Stability fixes throughout the update flow"
+  },
+  "featuresLocalized": {
+    "de-DE": [
+      "Loop-Schutz: Nach einem fehlgeschlagenen Auto-Update wird nicht mehr endlos neu versucht",
+      "Bessere Diagnose: Protokollierung jeder Update-Phase inkl. Linux/AppImage-Umgebung"
+    ],
+    "en-US": [
+      "Loop protection: a failed auto-update is no longer retried endlessly",
+      "Better diagnostics: every update phase is logged, including the Linux/AppImage environment"
+    ]
+  },
+  "fixesLocalized": {
+    "de-DE": [
+      "App beendet sich während des Updates nicht mehr vorzeitig ohne Ergebnis",
+      "Hilfsprozesse werden erst nach erfolgreichem Download gestoppt"
+    ],
+    "en-US": [
+      "The app no longer exits prematurely during an update without any result",
+      "Helper processes are only stopped after the download has succeeded"
+    ]
   }
 }
