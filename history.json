@@ -1,5 +1,16 @@
 [
   {
+    "version": "1.1.0",
+    "name": "AxxistSteam v1.1.0 Beta",
+    "notes": "Neu:\n- Mod-Manager (Alpha): Mods verwalten, Profile mit Priorität, Ein-Klick-Deployment mit Rollback-Garantie, Nexus-Integration und Download-Manager – Freischaltung über einen Alpha-Key\n- Steam-Gruppen-Kommentar-Tool: Gruppen per Suche oder Link, Einmal-/Loop-Modus mit konservativen Rate-Limits (aktuell vorübergehend gesperrt)\n- Update-Texte folgen jetzt der App-Sprache (Deutsch/Englisch), inklusive lokalisierter Update-Historie in den Einstellungen\n\nVerbesserungen:\n- Einstellungen als aufgeräumtes Control Center mit klarerer Tab-Struktur\n- Bessere Fehler- und Statusanzeigen im Mod-Manager\n- QoL-Verbesserungen rund um Bibliothek, Suche und Navigation\n\nBug Fixes:\n- Steam-Gruppen-Kommentar: korrekter Endpoint und Umgang mit leeren Antworten\n- Update-System: Loop-Schutz bei fehlgeschlagenen Updates\n- Stabilitäts- und Übersetzungs-Fixes",
+    "publishedAt": "2026-10-15T23:39:02Z",
+    "url": "https://github.com/useeyes/AxxistSteam-releases/releases/tag/v1.1.0",
+    "notesLocalized": {
+      "de-DE": "Neu:\n- Mod-Manager (Alpha): Mods verwalten, Profile mit Priorität, Ein-Klick-Deployment mit Rollback-Garantie, Nexus-Integration und Download-Manager – Freischaltung über einen Alpha-Key\n- Steam-Gruppen-Kommentar-Tool: Gruppen per Suche oder Link, Einmal-/Loop-Modus mit konservativen Rate-Limits (aktuell vorübergehend gesperrt)\n- Update-Texte folgen jetzt der App-Sprache (Deutsch/Englisch), inklusive lokalisierter Update-Historie in den Einstellungen\n\nVerbesserungen:\n- Einstellungen als aufgeräumtes Control Center mit klarerer Tab-Struktur\n- Bessere Fehler- und Statusanzeigen im Mod-Manager\n- QoL-Verbesserungen rund um Bibliothek, Suche und Navigation\n\nBug Fixes:\n- Steam-Gruppen-Kommentar: korrekter Endpoint und Umgang mit leeren Antworten\n- Update-System: Loop-Schutz bei fehlgeschlagenen Updates\n- Stabilitäts- und Übersetzungs-Fixes",
+      "en-US": "New:\n- Mod Manager (Alpha): manage mods, profiles with priority, one-click deployment with a rollback guarantee, Nexus integration and a download manager – unlocked via an alpha key\n- Steam Group Comment tool: find groups by search or link, once/loop mode with conservative rate limits (currently temporarily disabled)\n- Update texts now follow the app language (German/English), including a localized update history in Settings\n\nImprovements:\n- Settings as a tidy control center with a clearer tab structure\n- Better error and status feedback in the Mod Manager\n- QoL improvements around library, search and navigation\n\nBug Fixes:\n- Steam Group Comment: correct endpoint and handling of empty responses\n- Updater: loop protection for failed updates\n- Stability and translation fixes"
+    }
+  },
+  {
     "version": "1.0.4",
     "name": "AxxistSteam v1.0.4 Beta",
     "notes": "Neu:\n- Update-Reparatur: Endlosschleife bei fehlgeschlagenen Updates (Linux AppImage) behoben\n- Automatische Wiederholung wird nach einem Fehlschlag pausiert – manuelle Installation bleibt möglich\n- Erweiterte Update-Diagnose für präzise Fehlermeldungen\n\nBug Fixes:\n- Update-Vorgang hängt nie mehr vor dem Download\n- Stabilitätsfixes im Update-Ablauf",

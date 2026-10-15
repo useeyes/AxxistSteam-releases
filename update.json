@@ -1,7 +1,7 @@
 {
-  "version": "1.0.4",
-  "notes": "Neu:\n- Update-Reparatur: Endlosschleife bei fehlgeschlagenen Updates (Linux AppImage) behoben\n- Automatische Wiederholung wird nach einem Fehlschlag pausiert – manuelle Installation bleibt möglich\n- Erweiterte Update-Diagnose für präzise Fehlermeldungen\n\nBug Fixes:\n- Update-Vorgang hängt nie mehr vor dem Download\n- Stabilitätsfixes im Update-Ablauf",
-  "pubDate": "2026-08-23T20:54:19Z",
+  "version": "1.1.0",
+  "notes": "Neu:\n- Mod-Manager (Alpha): Mods verwalten, Profile mit Priorität, Ein-Klick-Deployment mit Rollback-Garantie, Nexus-Integration und Download-Manager – Freischaltung über einen Alpha-Key\n- Steam-Gruppen-Kommentar-Tool: Gruppen per Suche oder Link, Einmal-/Loop-Modus mit konservativen Rate-Limits (aktuell vorübergehend gesperrt)\n- Update-Texte folgen jetzt der App-Sprache (Deutsch/Englisch), inklusive lokalisierter Update-Historie in den Einstellungen\n\nVerbesserungen:\n- Einstellungen als aufgeräumtes Control Center mit klarerer Tab-Struktur\n- Bessere Fehler- und Statusanzeigen im Mod-Manager\n- QoL-Verbesserungen rund um Bibliothek, Suche und Navigation\n\nBug Fixes:\n- Steam-Gruppen-Kommentar: korrekter Endpoint und Umgang mit leeren Antworten\n- Update-System: Loop-Schutz bei fehlgeschlagenen Updates\n- Stabilitäts- und Übersetzungs-Fixes",
+  "pubDate": "2026-10-15T23:39:02Z",
   "download": {
     "windows": "https://github.com/useeyes/AxxistSteam-releases/releases/latest",
     "linux": "https://github.com/useeyes/AxxistSteam-releases/releases/latest"
