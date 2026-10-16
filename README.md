@@ -70,6 +70,16 @@ Idle games, farm trading cards, unlock achievements, and collect free games - al
       <p>Update notifications right in the app, a full release history in Settings, and one-click updates - no manual downloads needed.</p>
     </td>
   </tr>
+  <tr>
+    <td width="50%">
+      <h3>🧩 Mod Manager <sup>(Alpha)</sup></h3>
+      <p>Manage game mods with ordered profiles, one-click deployment with a rollback guarantee, Nexus integration and a download manager. Early access - unlock it with an alpha key.</p>
+    </td>
+    <td width="50%">
+      <h3>💬 Steam Group Comment</h3>
+      <p>Reach Steam groups found by search or link, with once/loop modes and conservative rate limits. Currently temporarily disabled while it is being finished.</p>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -105,8 +115,8 @@ More details: [**docs/UPDATES.md**](docs/UPDATES.md)
 ## 🚀 Latest Release
 
 <!-- LATEST-RELEASE:START -->
-**[v1.0.0 Alpha](../../releases/latest)** - first public alpha release of AxxistSteam, published
-on 2026-08-15.
+**[v1.1.0 Beta](../../releases/latest)** - the Mod Manager (Alpha), the Steam Group Comment tool,
+a refreshed Settings control center, localized update texts and a round of bug fixes.
 <!-- LATEST-RELEASE:END -->
 
 The complete history of every published version lives in the [release history](#-release-history)
@@ -149,7 +159,9 @@ high-level themes (no dates, no promises - the details are still being designed)
 
 Already shipped: multi-account dashboard with per-account analytics, playtime booster with presets
 and persistent analytics, card farming with queue/blacklist, achievement unlocker with ordering and
-schedules, free games & free packages auto-collect, and a signed in-app updater.
+schedules, free games & free packages auto-collect, a mod manager (Alpha) with profiles and
+one-click deployment, a Steam group comment tool (temporarily disabled), and a signed in-app
+updater with localized release notes.
 
 Vote on features or suggest your own on [Discord](https://discord.gg/k3fara4U64) or via
 [feature request](../../issues/new?template=feature_request.yml).

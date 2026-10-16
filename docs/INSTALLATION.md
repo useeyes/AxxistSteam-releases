@@ -1,6 +1,6 @@
 # AxxistSteam installation guide
 
-This guide applies to the public **AxxistSteam v1.0.0** release. Future versions
+This guide applies to the public **AxxistSteam v1.1.0** release. Future versions
 are available from the same [latest release page](https://github.com/useeyes/AxxistSteam-releases/releases/latest).
 
 ## Download
@@ -23,7 +23,7 @@ needed for installation.
 | Other modern Linux 64-bit | `AxxistSteam_<version>_amd64.AppImage` | `.rpm` where provided |
 
 The exact filenames on the release page are authoritative. Replace `<version>`
-with the current release version, for example `1.0.0`.
+with the current release version, for example `1.1.0`.
 
 ## Windows
 
