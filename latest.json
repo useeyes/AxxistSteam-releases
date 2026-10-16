@@ -1,58 +1,52 @@
 {
-  "version": "1.1.0",
-  "displayVersion": "1.1.0 Beta",
+  "version": "1.1.1",
+  "displayVersion": "1.1.1 Beta",
   "major": false,
-  "notes": "Neu:\n- Mod-Manager (Alpha): Mods verwalten, Profile mit Priorität, Ein-Klick-Deployment mit Rollback-Garantie, Nexus-Integration und Download-Manager – Freischaltung über einen Alpha-Key\n- Steam-Gruppen-Kommentar-Tool: Gruppen per Suche oder Link, Einmal-/Loop-Modus mit konservativen Rate-Limits (aktuell vorübergehend gesperrt)\n- Update-Texte folgen jetzt der App-Sprache (Deutsch/Englisch), inklusive lokalisierter Update-Historie in den Einstellungen\n\nVerbesserungen:\n- Einstellungen als aufgeräumtes Control Center mit klarerer Tab-Struktur\n- Bessere Fehler- und Statusanzeigen im Mod-Manager\n- QoL-Verbesserungen rund um Bibliothek, Suche und Navigation\n\nBug Fixes:\n- Steam-Gruppen-Kommentar: korrekter Endpoint und Umgang mit leeren Antworten\n- Update-System: Loop-Schutz bei fehlgeschlagenen Updates\n- Stabilitäts- und Übersetzungs-Fixes",
+  "notes": "Neu:\n- Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)\n- Szenen-Einstellungen im Theme-Dialog: Regen und Neigung als Regler, Nebel/Maus/Blitz als Schalter, Farbpaletten als Auswahl\n- \"Neu & Geupdatet\"-Regal ganz oben im Theme-Store, inkl. Neu-/Geupdatet-Badges und Herkunftszeilen (\"Erstellt\"/\"Geupdatet\") im Detail\n\nVerbesserungen:\n- Einheitliche Bedienelemente (Schalter, Regler, Segmentauswahl) überall, wo Optionen auftauchen\n- Standardisierte 16:9-Theme-Vorschauen für integrierte und heruntergeladene Themes\n- Sidebar lässt sich jetzt ein- und ausklappen\n\nAktualisiert:\n- Kinetic: die drei Varianten (Violett/Ice/Ember) sind zu einem Theme zusammengeführt - die Farbe wird jetzt live im Dialog gewählt und färbt das ganze Theme\n\nBug Fixes:\n- Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an",
   "features": [
-    "Mod-Manager (Alpha) mit Profilen, Prioritäts-Reihenfolge und Ein-Klick-Deployment inkl. Rollback",
-    "Nexus-Integration und Download-Manager für Mods",
-    "Steam-Gruppen-Kommentar-Tool mit Suche, Einmal-/Loop-Modus und Rate-Limits",
-    "Update-Texte folgen der App-Sprache (Deutsch/Englisch)"
+    "Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)",
+    "Szenen-Einstellungen im Theme-Dialog: Regler, Schalter und Farbauswahl",
+    "\"Neu & Geupdatet\"-Regal oben im Theme-Store mit Herkunftszeilen im Detail",
+    "Kinetic: die drei Varianten zu einem Theme zusammengeführt - Farbe jetzt live wählbar"
   ],
   "fixes": [
-    "Steam-Gruppen-Kommentar nutzt jetzt den korrekten Endpoint und verarbeitet leere Antworten",
-    "Update-System: kein Endlos-Retry nach fehlgeschlagenen Updates",
-    "Diverse Stabilitäts- und Übersetzungs-Fixes"
+    "Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an"
   ],
-  "pub_date": "2026-10-15T23:39:02Z",
+  "pub_date": "2026-10-16T19:03:58Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UndETTJQT2c3eGdUMGNieHNaVTI0STlFV3AyQmNEYXVUVEpsNUNxTWxXS0ZDNnl1ZmcwL3dnTnkwY3Z5L1lkaVJ1MUxaajc2czQ0UnBVYUZxSHZ0L3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTA3MjU1CWZpbGU6QXh4aXN0U3RlYW1fMS4xLjBfeDY0LXNldHVwLm5zaXMuemlwCms4aEVPU0VPdjRuaFZ4OUZmMm1zSzNvRmREdDgyQUxsem5YMFNLYTN5RXpoR000MWV3ejBFdXZZVDRDMjlJdE04UUEycTUrZS84ZE0rZ1pCU1E0Q0RRPT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.0/AxxistSteam_1.1.0_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UncwcTJPNnJvdkhFRDhzek4wYlZFcndWclVDZzRvTW0xV0dQNUF0RHcvbVN6R1Z3TkRzVFVIUDBMbDJlWWdxSHkrbkRmUGtWbHIzcy9ZcGFRckdCZEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc3MzQ3CWZpbGU6QXh4aXN0U3RlYW1fMS4xLjFfeDY0LXNldHVwLm5zaXMuemlwCld2Y0p4YXJ4ajM1VDFsakJnYXRqOHBSc2c1enJJRFA3d1kvYXJnSDY4ZDBWV3RwMHorcnRBNDVwMkdsMWMvaGFsTnVHd2dCTUJtclNQSHJvSUlYYkNnPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.1/AxxistSteam_1.1.1_x64-setup.nsis.zip"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjVPYk1VTjkySkNPZi9Tb0RHTURsL2JiMkNTcC90OVFLUXJZZDFxV0QyY0dkVHZxYTRTS3EyR0Y5SmtyRzZqTXd4SEdUSk8wUklOUjRYVU5Pc0hPNVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTA2OTY0CWZpbGU6QXh4aXN0U3RlYW1fMS4xLjBfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CnRISjBGSmUwcjVzeXI4VmhZcDlURFhFeGN3Q2JHbU9IbldGWG9Ic0JRTjNtRFdCWElKQWd5NWhEbFZCUVZqajAwMmU0MWg0NTF4bWk2dTZQVXo0aUNBPT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.0/AxxistSteam_1.1.0_amd64.AppImage.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjFIaURjdlNNdy9rNGxXZDRxQUhGZEZub2FtTGFaTHpES2hBcHl5UXhNbzRxakYxOVBrcWFhUEpHbFhoUjRIeWI5TE9vZHIvb3BBQVNrb1lsV1ZWd3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc3MDA4CWZpbGU6QXh4aXN0U3RlYW1fMS4xLjFfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmdUeitHeTFxNHhOTEwxZmVwZnM2NGZFbHdadmNFL0VUL3NMTU02TjNSZktXM0IwVGU5QkxaNnRPTE9xa1REMnJ1bXhqRzBvbXU4YTZqeXRXOUUyWEJ3PT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.1/AxxistSteam_1.1.1_amd64.AppImage.tar.gz"
     }
   },
   "notesLocalized": {
-    "de-DE": "Neu:\n- Mod-Manager (Alpha): Mods verwalten, Profile mit Priorität, Ein-Klick-Deployment mit Rollback-Garantie, Nexus-Integration und Download-Manager – Freischaltung über einen Alpha-Key\n- Steam-Gruppen-Kommentar-Tool: Gruppen per Suche oder Link, Einmal-/Loop-Modus mit konservativen Rate-Limits (aktuell vorübergehend gesperrt)\n- Update-Texte folgen jetzt der App-Sprache (Deutsch/Englisch), inklusive lokalisierter Update-Historie in den Einstellungen\n\nVerbesserungen:\n- Einstellungen als aufgeräumtes Control Center mit klarerer Tab-Struktur\n- Bessere Fehler- und Statusanzeigen im Mod-Manager\n- QoL-Verbesserungen rund um Bibliothek, Suche und Navigation\n\nBug Fixes:\n- Steam-Gruppen-Kommentar: korrekter Endpoint und Umgang mit leeren Antworten\n- Update-System: Loop-Schutz bei fehlgeschlagenen Updates\n- Stabilitäts- und Übersetzungs-Fixes",
-    "en-US": "New:\n- Mod Manager (Alpha): manage mods, profiles with priority, one-click deployment with a rollback guarantee, Nexus integration and a download manager – unlocked via an alpha key\n- Steam Group Comment tool: find groups by search or link, once/loop mode with conservative rate limits (currently temporarily disabled)\n- Update texts now follow the app language (German/English), including a localized update history in Settings\n\nImprovements:\n- Settings as a tidy control center with a clearer tab structure\n- Better error and status feedback in the Mod Manager\n- QoL improvements around library, search and navigation\n\nBug Fixes:\n- Steam Group Comment: correct endpoint and handling of empty responses\n- Updater: loop protection for failed updates\n- Stability and translation fixes"
+    "de-DE": "Neu:\n- Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)\n- Szenen-Einstellungen im Theme-Dialog: Regen und Neigung als Regler, Nebel/Maus/Blitz als Schalter, Farbpaletten als Auswahl\n- \"Neu & Geupdatet\"-Regal ganz oben im Theme-Store, inkl. Neu-/Geupdatet-Badges und Herkunftszeilen (\"Erstellt\"/\"Geupdatet\") im Detail\n\nVerbesserungen:\n- Einheitliche Bedienelemente (Schalter, Regler, Segmentauswahl) überall, wo Optionen auftauchen\n- Standardisierte 16:9-Theme-Vorschauen für integrierte und heruntergeladene Themes\n- Sidebar lässt sich jetzt ein- und ausklappen\n\nAktualisiert:\n- Kinetic: die drei Varianten (Violett/Ice/Ember) sind zu einem Theme zusammengeführt - die Farbe wird jetzt live im Dialog gewählt und färbt das ganze Theme\n\nBug Fixes:\n- Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an",
+    "en-US": "New:\n- Three new themes: Aurora Flux (aurora), Afterglow (neon rain) and Nebula Interactive (an interactive particle cloud with click supernovas)\n- Scene settings in the theme dialog: rain and tilt as sliders, fog/mouse/flash as switches, color palettes as picks\n- A \"New & Updated\" shelf at the very top of the theme store, with New/Updated badges and provenance lines (\"Created\"/\"Updated\") in the detail view\n\nImprovements:\n- Consistent controls (switches, sliders, segmented picks) wherever options appear\n- Standardized 16:9 theme previews for built-in and downloaded themes\n- The sidebar can now be collapsed and expanded\n\nUpdated:\n- Kinetic: the three variants (violet/ice/ember) are merged into one theme - the color is now picked live in the dialog and recolors the whole theme\n\nBug Fixes:\n- Sign-in: the back button stays correctly within the window and the agent sign-in columns now fit"
   },
   "featuresLocalized": {
     "de-DE": [
-      "Mod-Manager (Alpha) mit Profilen, Prioritäts-Reihenfolge und Ein-Klick-Deployment inkl. Rollback",
-      "Nexus-Integration und Download-Manager für Mods",
-      "Steam-Gruppen-Kommentar-Tool mit Suche, Einmal-/Loop-Modus und Rate-Limits",
-      "Update-Texte folgen der App-Sprache (Deutsch/Englisch)"
+      "Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)",
+      "Szenen-Einstellungen im Theme-Dialog: Regler, Schalter und Farbauswahl",
+      "\"Neu & Geupdatet\"-Regal oben im Theme-Store mit Herkunftszeilen im Detail",
+      "Kinetic: die drei Varianten zu einem Theme zusammengeführt - Farbe jetzt live wählbar"
     ],
     "en-US": [
-      "Mod Manager (Alpha) with profiles, priority ordering and one-click deployment including rollback",
-      "Nexus integration and a download manager for mods",
-      "Steam Group Comment tool with search, once/loop mode and rate limits",
-      "Update texts follow the app language (German/English)"
+      "Three new themes: Aurora Flux (aurora), Afterglow (neon rain) and Nebula Interactive (an interactive particle cloud with click supernovas)",
+      "Scene settings in the theme dialog: sliders, switches and color picks",
+      "A \"New & Updated\" shelf at the top of the theme store with provenance lines in the detail view",
+      "Kinetic: the three variants merged into one theme - color now picked live"
     ]
   },
   "fixesLocalized": {
     "de-DE": [
-      "Steam-Gruppen-Kommentar nutzt jetzt den korrekten Endpoint und verarbeitet leere Antworten",
-      "Update-System: kein Endlos-Retry nach fehlgeschlagenen Updates",
-      "Diverse Stabilitäts- und Übersetzungs-Fixes"
+      "Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an"
     ],
     "en-US": [
-      "Steam Group Comment now uses the correct endpoint and handles empty responses",
-      "Updater: no endless retry after failed updates",
-      "Various stability and translation fixes"
+      "Sign-in: the back button stays within the window and the agent sign-in columns now fit"
     ]
   }
 }

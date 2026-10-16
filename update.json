@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "notes": "Neu:\n- Mod-Manager (Alpha): Mods verwalten, Profile mit Priorität, Ein-Klick-Deployment mit Rollback-Garantie, Nexus-Integration und Download-Manager – Freischaltung über einen Alpha-Key\n- Steam-Gruppen-Kommentar-Tool: Gruppen per Suche oder Link, Einmal-/Loop-Modus mit konservativen Rate-Limits (aktuell vorübergehend gesperrt)\n- Update-Texte folgen jetzt der App-Sprache (Deutsch/Englisch), inklusive lokalisierter Update-Historie in den Einstellungen\n\nVerbesserungen:\n- Einstellungen als aufgeräumtes Control Center mit klarerer Tab-Struktur\n- Bessere Fehler- und Statusanzeigen im Mod-Manager\n- QoL-Verbesserungen rund um Bibliothek, Suche und Navigation\n\nBug Fixes:\n- Steam-Gruppen-Kommentar: korrekter Endpoint und Umgang mit leeren Antworten\n- Update-System: Loop-Schutz bei fehlgeschlagenen Updates\n- Stabilitäts- und Übersetzungs-Fixes",
-  "pubDate": "2026-10-15T23:39:02Z",
+  "version": "1.1.1",
+  "notes": "Neu:\n- Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)\n- Szenen-Einstellungen im Theme-Dialog: Regen und Neigung als Regler, Nebel/Maus/Blitz als Schalter, Farbpaletten als Auswahl\n- \"Neu & Geupdatet\"-Regal ganz oben im Theme-Store, inkl. Neu-/Geupdatet-Badges und Herkunftszeilen (\"Erstellt\"/\"Geupdatet\") im Detail\n\nVerbesserungen:\n- Einheitliche Bedienelemente (Schalter, Regler, Segmentauswahl) überall, wo Optionen auftauchen\n- Standardisierte 16:9-Theme-Vorschauen für integrierte und heruntergeladene Themes\n- Sidebar lässt sich jetzt ein- und ausklappen\n\nAktualisiert:\n- Kinetic: die drei Varianten (Violett/Ice/Ember) sind zu einem Theme zusammengeführt - die Farbe wird jetzt live im Dialog gewählt und färbt das ganze Theme\n\nBug Fixes:\n- Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an",
+  "pubDate": "2026-10-16T19:03:58Z",
   "download": {
     "windows": "https://github.com/useeyes/AxxistSteam-releases/releases/latest",
     "linux": "https://github.com/useeyes/AxxistSteam-releases/releases/latest"
