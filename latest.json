@@ -1,52 +1,58 @@
 {
-  "version": "1.1.1",
-  "displayVersion": "1.1.1 Beta",
+  "version": "1.1.2",
+  "displayVersion": "1.1.2 Halloween Edition",
   "major": false,
-  "notes": "Neu:\n- Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)\n- Szenen-Einstellungen im Theme-Dialog: Regen und Neigung als Regler, Nebel/Maus/Blitz als Schalter, Farbpaletten als Auswahl\n- \"Neu & Geupdatet\"-Regal ganz oben im Theme-Store, inkl. Neu-/Geupdatet-Badges und Herkunftszeilen (\"Erstellt\"/\"Geupdatet\") im Detail\n\nVerbesserungen:\n- Einheitliche Bedienelemente (Schalter, Regler, Segmentauswahl) überall, wo Optionen auftauchen\n- Standardisierte 16:9-Theme-Vorschauen für integrierte und heruntergeladene Themes\n- Sidebar lässt sich jetzt ein- und ausklappen\n\nAktualisiert:\n- Kinetic: die drei Varianten (Violett/Ice/Ember) sind zu einem Theme zusammengeführt - die Farbe wird jetzt live im Dialog gewählt und färbt das ganze Theme\n\nBug Fixes:\n- Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an",
+  "notes": "Halloween-Update 🎃\n\nNeu:\n- Hop Across 1.1: 100 Skins, neue Welten und Power-ups (Schild & Zeitlupe)\n- Tagesbonus mit Serie, Tagesherausforderung mit drei Stufen und eigene Bestenliste\n- Aufträge, Level/XP und 24 Erfolge – Belohnungen werden direkt gutgeschrieben\n- Mod-Manager: Mods anwenden mit einem Klick, Spielordner wird automatisch erkannt\n- Mod-Manager: verständliche Sprache für Einsteiger – aus \"VFS\" wird \"Mods im Spiel\"\n\nVerbesserungen:\n- Hop Across: neue Gefahren-Warnungen, flüssigere Autobahn und überarbeitete Menüs\n- Kisten zeigen Sammel-Meilensteine (10/25/40/60/80/100 Skins)\n- Spielstände, INI-Editor und Programme sind klarer beschriftet\n\nBug Fixes:\n- Hop Across: Adler-Timer und Münzvergabe laufen jetzt zuverlässig weiter\n- Fortschritt und Einstellungen bleiben auch nach einem Neustart erhalten",
   "features": [
-    "Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)",
-    "Szenen-Einstellungen im Theme-Dialog: Regler, Schalter und Farbauswahl",
-    "\"Neu & Geupdatet\"-Regal oben im Theme-Store mit Herkunftszeilen im Detail",
-    "Kinetic: die drei Varianten zu einem Theme zusammengeführt - Farbe jetzt live wählbar"
+    "Hop Across 1.1 mit 100 Skins, neuen Welten und Power-ups",
+    "Tagesbonus, Tagesherausforderung und Bestenliste",
+    "Aufträge, Level/XP und 24 Erfolge",
+    "Mod-Manager: Mods mit einem Klick anwenden und Spielordner automatisch erkennen",
+    "Mod-Manager: einsteigerfreundliche Sprache statt VFS-Fachbegriffen"
   ],
   "fixes": [
-    "Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an"
+    "Hop Across: Adler-Timer und Münzvergabe laufen zuverlässig weiter",
+    "Fortschritt und Einstellungen bleiben nach einem Neustart erhalten"
   ],
-  "pub_date": "2026-10-16T19:03:58Z",
+  "pub_date": "2026-10-21T15:41:34Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UncwcTJPNnJvdkhFRDhzek4wYlZFcndWclVDZzRvTW0xV0dQNUF0RHcvbVN6R1Z3TkRzVFVIUDBMbDJlWWdxSHkrbkRmUGtWbHIzcy9ZcGFRckdCZEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc3MzQ3CWZpbGU6QXh4aXN0U3RlYW1fMS4xLjFfeDY0LXNldHVwLm5zaXMuemlwCld2Y0p4YXJ4ajM1VDFsakJnYXRqOHBSc2c1enJJRFA3d1kvYXJnSDY4ZDBWV3RwMHorcnRBNDVwMkdsMWMvaGFsTnVHd2dCTUJtclNQSHJvSUlYYkNnPT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.1/AxxistSteam_1.1.1_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5Ujd0aW1iVzdTcTRib2ZCaHRJb2t5WVQ5M3h6ZU4wSHBCb2ZseURQNUJqNHFKUXk3WmhINW0vUTBKL0oxRUh2QnpQbmRIZHZ4ZnZXbnlxV1FmK0lJS0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTk3MDA0CWZpbGU6QXh4aXN0U3RlYW1fMS4xLjJfeDY0LXNldHVwLm5zaXMuemlwCk5VZU1yN1Q0N3EwYnVhN2pJaDVOYVdBYy9xa1ZEZ2lGemExUE40UFRLd1F0ZURkK01DeDNkaGxlU29QV0lzYlNIK3g2VUsxRDRIRVpxUzdTd2NtU0R3PT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.2/AxxistSteam_1.1.2_x64-setup.nsis.zip"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjFIaURjdlNNdy9rNGxXZDRxQUhGZEZub2FtTGFaTHpES2hBcHl5UXhNbzRxakYxOVBrcWFhUEpHbFhoUjRIeWI5TE9vZHIvb3BBQVNrb1lsV1ZWd3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc3MDA4CWZpbGU6QXh4aXN0U3RlYW1fMS4xLjFfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmdUeitHeTFxNHhOTEwxZmVwZnM2NGZFbHdadmNFL0VUL3NMTU02TjNSZktXM0IwVGU5QkxaNnRPTE9xa1REMnJ1bXhqRzBvbXU4YTZqeXRXOUUyWEJ3PT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.1/AxxistSteam_1.1.1_amd64.AppImage.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjgyYUZYenIxTnJ3bm9QTkNEQ2N3RitsT2RaZ2RuMzRiVlE4VTRKSFJzMjJpbkNLcUEzV2FxalZjOC9TYTdKcGlhN2wyYlU1ZmZuNGEzV21PWmpLMnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTk2MjUzCWZpbGU6QXh4aXN0U3RlYW1fMS4xLjJfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CkZWTHJmQi9GdUdvRGdsdnMvc0Ixb0dMem9CcktzZWw3YkNMWldoeFBQczlBbW5kVkNhMExRYkJudXNuY053UHlDbVg3dlpQMFN0dGtSZE9zZklvMENBPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.2/AxxistSteam_1.1.2_amd64.AppImage.tar.gz"
     }
   },
   "notesLocalized": {
-    "de-DE": "Neu:\n- Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)\n- Szenen-Einstellungen im Theme-Dialog: Regen und Neigung als Regler, Nebel/Maus/Blitz als Schalter, Farbpaletten als Auswahl\n- \"Neu & Geupdatet\"-Regal ganz oben im Theme-Store, inkl. Neu-/Geupdatet-Badges und Herkunftszeilen (\"Erstellt\"/\"Geupdatet\") im Detail\n\nVerbesserungen:\n- Einheitliche Bedienelemente (Schalter, Regler, Segmentauswahl) überall, wo Optionen auftauchen\n- Standardisierte 16:9-Theme-Vorschauen für integrierte und heruntergeladene Themes\n- Sidebar lässt sich jetzt ein- und ausklappen\n\nAktualisiert:\n- Kinetic: die drei Varianten (Violett/Ice/Ember) sind zu einem Theme zusammengeführt - die Farbe wird jetzt live im Dialog gewählt und färbt das ganze Theme\n\nBug Fixes:\n- Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an",
-    "en-US": "New:\n- Three new themes: Aurora Flux (aurora), Afterglow (neon rain) and Nebula Interactive (an interactive particle cloud with click supernovas)\n- Scene settings in the theme dialog: rain and tilt as sliders, fog/mouse/flash as switches, color palettes as picks\n- A \"New & Updated\" shelf at the very top of the theme store, with New/Updated badges and provenance lines (\"Created\"/\"Updated\") in the detail view\n\nImprovements:\n- Consistent controls (switches, sliders, segmented picks) wherever options appear\n- Standardized 16:9 theme previews for built-in and downloaded themes\n- The sidebar can now be collapsed and expanded\n\nUpdated:\n- Kinetic: the three variants (violet/ice/ember) are merged into one theme - the color is now picked live in the dialog and recolors the whole theme\n\nBug Fixes:\n- Sign-in: the back button stays correctly within the window and the agent sign-in columns now fit"
+    "de-DE": "Halloween-Update 🎃\n\nNeu:\n- Hop Across 1.1: 100 Skins, neue Welten und Power-ups (Schild & Zeitlupe)\n- Tagesbonus mit Serie, Tagesherausforderung mit drei Stufen und eigene Bestenliste\n- Aufträge, Level/XP und 24 Erfolge – Belohnungen werden direkt gutgeschrieben\n- Mod-Manager: Mods anwenden mit einem Klick, Spielordner wird automatisch erkannt\n- Mod-Manager: verständliche Sprache für Einsteiger – aus \"VFS\" wird \"Mods im Spiel\"\n\nVerbesserungen:\n- Hop Across: neue Gefahren-Warnungen, flüssigere Autobahn und überarbeitete Menüs\n- Kisten zeigen Sammel-Meilensteine (10/25/40/60/80/100 Skins)\n- Spielstände, INI-Editor und Programme sind klarer beschriftet\n\nBug Fixes:\n- Hop Across: Adler-Timer und Münzvergabe laufen jetzt zuverlässig weiter\n- Fortschritt und Einstellungen bleiben auch nach einem Neustart erhalten",
+    "en-US": "Halloween Update 🎃\n\nNew:\n- Hop Across 1.1: 100 skins, new worlds and power-ups (shield & slow-mo)\n- Daily bonus with streaks, a three-tier daily challenge and your own leaderboard\n- Quests, level/XP and 24 achievements – rewards are credited instantly\n- Mod manager: apply your mods in one click, with automatic game-folder detection\n- Mod manager: plain-language wording for newcomers – \"VFS\" is now \"Mods in game\"\n\nImprovements:\n- Hop Across: new hazard warnings, a smoother highway and reworked menus\n- Crates now show collection milestones (10/25/40/60/80/100 skins)\n- Savegames, INI editor and tools are labelled more clearly\n\nBug Fixes:\n- Hop Across: the eagle timer and coin crediting now keep running reliably\n- Progress and settings survive a restart"
   },
   "featuresLocalized": {
     "de-DE": [
-      "Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)",
-      "Szenen-Einstellungen im Theme-Dialog: Regler, Schalter und Farbauswahl",
-      "\"Neu & Geupdatet\"-Regal oben im Theme-Store mit Herkunftszeilen im Detail",
-      "Kinetic: die drei Varianten zu einem Theme zusammengeführt - Farbe jetzt live wählbar"
+      "Hop Across 1.1 mit 100 Skins, neuen Welten und Power-ups",
+      "Tagesbonus, Tagesherausforderung und Bestenliste",
+      "Aufträge, Level/XP und 24 Erfolge",
+      "Mod-Manager: Mods mit einem Klick anwenden und Spielordner automatisch erkennen",
+      "Mod-Manager: einsteigerfreundliche Sprache statt VFS-Fachbegriffen"
     ],
     "en-US": [
-      "Three new themes: Aurora Flux (aurora), Afterglow (neon rain) and Nebula Interactive (an interactive particle cloud with click supernovas)",
-      "Scene settings in the theme dialog: sliders, switches and color picks",
-      "A \"New & Updated\" shelf at the top of the theme store with provenance lines in the detail view",
-      "Kinetic: the three variants merged into one theme - color now picked live"
+      "Hop Across 1.1 with 100 skins, new worlds and power-ups",
+      "Daily bonus, daily challenge and leaderboard",
+      "Quests, level/XP and 24 achievements",
+      "Mod manager: apply mods in one click with automatic game-folder detection",
+      "Mod manager: newcomer-friendly wording instead of VFS jargon"
     ]
   },
   "fixesLocalized": {
     "de-DE": [
-      "Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an"
+      "Hop Across: Adler-Timer und Münzvergabe laufen zuverlässig weiter",
+      "Fortschritt und Einstellungen bleiben nach einem Neustart erhalten"
     ],
     "en-US": [
-      "Sign-in: the back button stays within the window and the agent sign-in columns now fit"
+      "Hop Across: the eagle timer and coin crediting keep running reliably",
+      "Progress and settings survive a restart"
     ]
   }
 }

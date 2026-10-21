@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1",
-  "notes": "Neu:\n- Drei neue Themes: Aurora Flux (Polarlicht), Afterglow (Neonregen) und Nebula Interactive (interaktive Partikelwolke mit Klick-Supernova)\n- Szenen-Einstellungen im Theme-Dialog: Regen und Neigung als Regler, Nebel/Maus/Blitz als Schalter, Farbpaletten als Auswahl\n- \"Neu & Geupdatet\"-Regal ganz oben im Theme-Store, inkl. Neu-/Geupdatet-Badges und Herkunftszeilen (\"Erstellt\"/\"Geupdatet\") im Detail\n\nVerbesserungen:\n- Einheitliche Bedienelemente (Schalter, Regler, Segmentauswahl) überall, wo Optionen auftauchen\n- Standardisierte 16:9-Theme-Vorschauen für integrierte und heruntergeladene Themes\n- Sidebar lässt sich jetzt ein- und ausklappen\n\nAktualisiert:\n- Kinetic: die drei Varianten (Violett/Ice/Ember) sind zu einem Theme zusammengeführt - die Farbe wird jetzt live im Dialog gewählt und färbt das ganze Theme\n\nBug Fixes:\n- Anmeldung: Zurück-Button bleibt korrekt im Fenster und die Agent-Anmelde-Spalten passen sich richtig an",
-  "pubDate": "2026-10-16T19:03:58Z",
+  "version": "1.1.2",
+  "notes": "Halloween-Update 🎃\n\nNeu:\n- Hop Across 1.1: 100 Skins, neue Welten und Power-ups (Schild & Zeitlupe)\n- Tagesbonus mit Serie, Tagesherausforderung mit drei Stufen und eigene Bestenliste\n- Aufträge, Level/XP und 24 Erfolge – Belohnungen werden direkt gutgeschrieben\n- Mod-Manager: Mods anwenden mit einem Klick, Spielordner wird automatisch erkannt\n- Mod-Manager: verständliche Sprache für Einsteiger – aus \"VFS\" wird \"Mods im Spiel\"\n\nVerbesserungen:\n- Hop Across: neue Gefahren-Warnungen, flüssigere Autobahn und überarbeitete Menüs\n- Kisten zeigen Sammel-Meilensteine (10/25/40/60/80/100 Skins)\n- Spielstände, INI-Editor und Programme sind klarer beschriftet\n\nBug Fixes:\n- Hop Across: Adler-Timer und Münzvergabe laufen jetzt zuverlässig weiter\n- Fortschritt und Einstellungen bleiben auch nach einem Neustart erhalten",
+  "pubDate": "2026-10-21T15:41:35Z",
   "download": {
     "windows": "https://github.com/useeyes/AxxistSteam-releases/releases/latest",
     "linux": "https://github.com/useeyes/AxxistSteam-releases/releases/latest"
