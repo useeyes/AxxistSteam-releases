@@ -1,58 +1,55 @@
 {
-  "version": "1.1.2",
-  "displayVersion": "1.1.2 Halloween Edition",
+  "version": "1.1.3",
+  "displayVersion": "Mod-Manager-Update für Windows",
   "major": false,
-  "notes": "Halloween-Update 🎃\n\nNeu:\n- Hop Across 1.1: 100 Skins, neue Welten und Power-ups (Schild & Zeitlupe)\n- Tagesbonus mit Serie, Tagesherausforderung mit drei Stufen und eigene Bestenliste\n- Aufträge, Level/XP und 24 Erfolge – Belohnungen werden direkt gutgeschrieben\n- Mod-Manager: Mods anwenden mit einem Klick, Spielordner wird automatisch erkannt\n- Mod-Manager: verständliche Sprache für Einsteiger – aus \"VFS\" wird \"Mods im Spiel\"\n\nVerbesserungen:\n- Hop Across: neue Gefahren-Warnungen, flüssigere Autobahn und überarbeitete Menüs\n- Kisten zeigen Sammel-Meilensteine (10/25/40/60/80/100 Skins)\n- Spielstände, INI-Editor und Programme sind klarer beschriftet\n\nBug Fixes:\n- Hop Across: Adler-Timer und Münzvergabe laufen jetzt zuverlässig weiter\n- Fortschritt und Einstellungen bleiben auch nach einem Neustart erhalten",
+  "notes": "Mod-Manager-Update für Windows 🛠️\n\nNeu:\n- Mods jetzt auch unter Windows direkt im Spiel: AxxistSteam baut beim Start eine virtuelle Spielfassung auf – der echte Spielordner bleibt unangetastet\n- Unterstützt 64-Bit- und 32-Bit-Spiele\n- Was das Spiel speichert oder verändert, landet im Overwrite-Ordner statt im Installationsordner\n- Eigene INI-Anpassungen aus dem Profil werden beim Start automatisch übernommen\n\nVerbesserungen:\n- Mod-Manager spricht jetzt Alltagssprache: „Mods im Spiel“, „Mods anwenden“ und klare Hinweise statt Fachbegriffen\n- Spielordner wird automatisch erkannt und kann bei Bedarf geändert werden\n- Sicherer Start: Fehlt der Mod-Helfer, startet das Spiel ganz normal ohne Mods\n\nHinweis:\n- Nach dem Update Steam einmal neu starten, damit die Startoption übernommen wird.",
   "features": [
-    "Hop Across 1.1 mit 100 Skins, neuen Welten und Power-ups",
-    "Tagesbonus, Tagesherausforderung und Bestenliste",
-    "Aufträge, Level/XP und 24 Erfolge",
-    "Mod-Manager: Mods mit einem Klick anwenden und Spielordner automatisch erkennen",
-    "Mod-Manager: einsteigerfreundliche Sprache statt VFS-Fachbegriffen"
+    "Echtes Modding unter Windows: Spiel startet mit einer virtuellen Spielfassung, der Installationsordner bleibt unangetastet",
+    "64-Bit- und 32-Bit-Spiele werden unterstützt",
+    "Spiel-Schreibzugriffe landen im Overwrite-Ordner, nicht im Spielordner",
+    "INI-Anpassungen aus dem Profil werden beim Start automatisch angewendet",
+    "Mod-Manager mit verständlicher Sprache und automatischer Spielordner-Erkennung"
   ],
   "fixes": [
-    "Hop Across: Adler-Timer und Münzvergabe laufen zuverlässig weiter",
-    "Fortschritt und Einstellungen bleiben nach einem Neustart erhalten"
+    "Fehlt der Mod-Helfer, startet das Spiel normal ohne Mods statt mit einer Fehlermeldung"
   ],
-  "pub_date": "2026-10-21T15:41:34Z",
+  "pub_date": "2026-10-21T17:07:22Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5Ujd0aW1iVzdTcTRib2ZCaHRJb2t5WVQ5M3h6ZU4wSHBCb2ZseURQNUJqNHFKUXk3WmhINW0vUTBKL0oxRUh2QnpQbmRIZHZ4ZnZXbnlxV1FmK0lJS0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTk3MDA0CWZpbGU6QXh4aXN0U3RlYW1fMS4xLjJfeDY0LXNldHVwLm5zaXMuemlwCk5VZU1yN1Q0N3EwYnVhN2pJaDVOYVdBYy9xa1ZEZ2lGemExUE40UFRLd1F0ZURkK01DeDNkaGxlU29QV0lzYlNIK3g2VUsxRDRIRVpxUzdTd2NtU0R3PT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.2/AxxistSteam_1.1.2_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5Und2Y1dzU0t1TndSdmpMWXJwRUJ4NFB0ZVBKWWdHMjR3RGthMjRjdFIrK0tIeGJxdS9PU2lVVW92SU1CUTVRdkhmQ1lPNituTFkzNUsxdzRiMzl3Q2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAyMzczCWZpbGU6QXh4aXN0U3RlYW1fMS4xLjNfeDY0LXNldHVwLm5zaXMuemlwCnBRM1M2Y3FHU2xYTUdOdHVQcmE0OUk2QWl5Q2RvTytielNWWFFoWDVJQ2pWTzF5Z1dCcFltb0kxMWZWRUNRckg1TmJHeEZ1NDRld3lDTWdzT0FUVkFnPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.3/AxxistSteam_1.1.3_x64-setup.nsis.zip"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjgyYUZYenIxTnJ3bm9QTkNEQ2N3RitsT2RaZ2RuMzRiVlE4VTRKSFJzMjJpbkNLcUEzV2FxalZjOC9TYTdKcGlhN2wyYlU1ZmZuNGEzV21PWmpLMnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTk2MjUzCWZpbGU6QXh4aXN0U3RlYW1fMS4xLjJfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CkZWTHJmQi9GdUdvRGdsdnMvc0Ixb0dMem9CcktzZWw3YkNMWldoeFBQczlBbW5kVkNhMExRYkJudXNuY053UHlDbVg3dlpQMFN0dGtSZE9zZklvMENBPT0K",
-      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.2/AxxistSteam_1.1.2_amd64.AppImage.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5Ujd0aHgxWUhnNFZEdVlIYzlZYTl4VVhYSHd0WmpOR29Xb0MwYktZQ243Yy83NHkyQkIyVkNIdlJOdWpVYktzSldLdzZYNzBQbU5NalAxdUlNN2NUc1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAyMjkyCWZpbGU6QXh4aXN0U3RlYW1fMS4xLjNfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmVrdXpNSkp1RGJWZnQ2T3M3eEFGTzU0aEFuQVFCOVZ2dExldnBkR2F3TjNTYlpNc01xaGxPSjVFNUx4eEJQaVdtUUUyc1F0eXkwSzUyMlVLZFh1akFnPT0K",
+      "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.3/AxxistSteam_1.1.3_amd64.AppImage.tar.gz"
     }
   },
   "notesLocalized": {
-    "de-DE": "Halloween-Update 🎃\n\nNeu:\n- Hop Across 1.1: 100 Skins, neue Welten und Power-ups (Schild & Zeitlupe)\n- Tagesbonus mit Serie, Tagesherausforderung mit drei Stufen und eigene Bestenliste\n- Aufträge, Level/XP und 24 Erfolge – Belohnungen werden direkt gutgeschrieben\n- Mod-Manager: Mods anwenden mit einem Klick, Spielordner wird automatisch erkannt\n- Mod-Manager: verständliche Sprache für Einsteiger – aus \"VFS\" wird \"Mods im Spiel\"\n\nVerbesserungen:\n- Hop Across: neue Gefahren-Warnungen, flüssigere Autobahn und überarbeitete Menüs\n- Kisten zeigen Sammel-Meilensteine (10/25/40/60/80/100 Skins)\n- Spielstände, INI-Editor und Programme sind klarer beschriftet\n\nBug Fixes:\n- Hop Across: Adler-Timer und Münzvergabe laufen jetzt zuverlässig weiter\n- Fortschritt und Einstellungen bleiben auch nach einem Neustart erhalten",
-    "en-US": "Halloween Update 🎃\n\nNew:\n- Hop Across 1.1: 100 skins, new worlds and power-ups (shield & slow-mo)\n- Daily bonus with streaks, a three-tier daily challenge and your own leaderboard\n- Quests, level/XP and 24 achievements – rewards are credited instantly\n- Mod manager: apply your mods in one click, with automatic game-folder detection\n- Mod manager: plain-language wording for newcomers – \"VFS\" is now \"Mods in game\"\n\nImprovements:\n- Hop Across: new hazard warnings, a smoother highway and reworked menus\n- Crates now show collection milestones (10/25/40/60/80/100 skins)\n- Savegames, INI editor and tools are labelled more clearly\n\nBug Fixes:\n- Hop Across: the eagle timer and coin crediting now keep running reliably\n- Progress and settings survive a restart"
+    "de-DE": "Mod-Manager-Update für Windows 🛠️\n\nNeu:\n- Mods jetzt auch unter Windows direkt im Spiel: AxxistSteam baut beim Start eine virtuelle Spielfassung auf – der echte Spielordner bleibt unangetastet\n- Unterstützt 64-Bit- und 32-Bit-Spiele\n- Was das Spiel speichert oder verändert, landet im Overwrite-Ordner statt im Installationsordner\n- Eigene INI-Anpassungen aus dem Profil werden beim Start automatisch übernommen\n\nVerbesserungen:\n- Mod-Manager spricht jetzt Alltagssprache: „Mods im Spiel“, „Mods anwenden“ und klare Hinweise statt Fachbegriffen\n- Spielordner wird automatisch erkannt und kann bei Bedarf geändert werden\n- Sicherer Start: Fehlt der Mod-Helfer, startet das Spiel ganz normal ohne Mods\n\nHinweis:\n- Nach dem Update Steam einmal neu starten, damit die Startoption übernommen wird.",
+    "en-US": "Mod manager update for Windows 🛠️\n\nNew:\n- Mods now work in-game on Windows too: AxxistSteam builds a virtual view at launch, so your real game folder stays untouched\n- Supports both 64-bit and 32-bit games\n- Anything the game saves or changes goes to the Overwrite folder instead of the installation folder\n- Your profile's INI tweaks are applied automatically at launch\n\nImprovements:\n- The mod manager now uses plain language: \"Mods in game\", \"Apply mods\" and clear hints instead of technical jargon\n- Your game folder is detected automatically and can still be changed if needed\n- Safe launch: if the mod helper is missing, the game starts normally without mods\n\nNote:\n- Restart Steam once after updating so the launch option is picked up."
   },
   "featuresLocalized": {
     "de-DE": [
-      "Hop Across 1.1 mit 100 Skins, neuen Welten und Power-ups",
-      "Tagesbonus, Tagesherausforderung und Bestenliste",
-      "Aufträge, Level/XP und 24 Erfolge",
-      "Mod-Manager: Mods mit einem Klick anwenden und Spielordner automatisch erkennen",
-      "Mod-Manager: einsteigerfreundliche Sprache statt VFS-Fachbegriffen"
+      "Echtes Modding unter Windows: Spiel startet mit einer virtuellen Spielfassung, der Installationsordner bleibt unangetastet",
+      "64-Bit- und 32-Bit-Spiele werden unterstützt",
+      "Spiel-Schreibzugriffe landen im Overwrite-Ordner, nicht im Spielordner",
+      "INI-Anpassungen aus dem Profil werden beim Start automatisch angewendet",
+      "Mod-Manager mit verständlicher Sprache und automatischer Spielordner-Erkennung"
     ],
     "en-US": [
-      "Hop Across 1.1 with 100 skins, new worlds and power-ups",
-      "Daily bonus, daily challenge and leaderboard",
-      "Quests, level/XP and 24 achievements",
-      "Mod manager: apply mods in one click with automatic game-folder detection",
-      "Mod manager: newcomer-friendly wording instead of VFS jargon"
+      "Real modding on Windows: the game launches with a virtual view while the installation folder stays untouched",
+      "Supports 64-bit and 32-bit games",
+      "Game writes go to the Overwrite folder, not the game folder",
+      "Your profile's INI tweaks are applied automatically at launch",
+      "Mod manager with plain-language wording and automatic game-folder detection"
     ]
   },
   "fixesLocalized": {
     "de-DE": [
-      "Hop Across: Adler-Timer und Münzvergabe laufen zuverlässig weiter",
-      "Fortschritt und Einstellungen bleiben nach einem Neustart erhalten"
+      "Fehlt der Mod-Helfer, startet das Spiel normal ohne Mods statt mit einer Fehlermeldung"
     ],
     "en-US": [
-      "Hop Across: the eagle timer and coin crediting keep running reliably",
-      "Progress and settings survive a restart"
+      "If the mod helper is missing, the game starts normally without mods instead of showing an error"
     ]
   }
 }

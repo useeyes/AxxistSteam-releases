@@ -129,6 +129,7 @@ below and, machine-readable, in [`history.json`](history.json).
 <!-- RELEASE-HISTORY:START -->
 | Version | Date | Notes |
 |---------|------|-------|
+| [v1.1.3](../../releases/tag/v1.1.3) | 2026-10-21 | See release notes |
 | [v1.1.2](../../releases/tag/v1.1.2) | 2026-10-21 | See release notes |
 | [v1.1.1](../../releases/tag/v1.1.1) | 2026-10-16 | See release notes |
 | [v1.1.0](../../releases/tag/v1.1.0) | 2026-10-15 | See release notes |
