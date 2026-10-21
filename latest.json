@@ -13,14 +13,14 @@
   "fixes": [
     "Fehlt der Mod-Helfer, startet das Spiel normal ohne Mods statt mit einer Fehlermeldung"
   ],
-  "pub_date": "2026-10-21T17:07:22Z",
+  "pub_date": "2026-10-21T17:52:23Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5Und2Y1dzU0t1TndSdmpMWXJwRUJ4NFB0ZVBKWWdHMjR3RGthMjRjdFIrK0tIeGJxdS9PU2lVVW92SU1CUTVRdkhmQ1lPNituTFkzNUsxdzRiMzl3Q2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAyMzczCWZpbGU6QXh4aXN0U3RlYW1fMS4xLjNfeDY0LXNldHVwLm5zaXMuemlwCnBRM1M2Y3FHU2xYTUdOdHVQcmE0OUk2QWl5Q2RvTytielNWWFFoWDVJQ2pWTzF5Z1dCcFltb0kxMWZWRUNRckg1TmJHeEZ1NDRld3lDTWdzT0FUVkFnPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjhiaXI3VFJmRVg1U1F1bTlnQ2phN0tpNkMvbU14aHczVUs2OTJremxRVkxvQkNSLzVoMnEzVTk0NmlFUmdJdldsNEhvMWE5RjE5VU5OT3dWRml3OEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA0OTEwCWZpbGU6QXh4aXN0U3RlYW1fMS4xLjNfeDY0LXNldHVwLm5zaXMuemlwCm5HOUgrZlNZeDRMK2JrTTQ2R0Mya0RlRzRSZUF5R1EvU3lXcUxiSmExSi8vdVhXUDFnSFV1TmVoMFQ5dklxRmM3ZzBlR2d2M01HWXFQWDlIc2JJZENRPT0K",
       "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.3/AxxistSteam_1.1.3_x64-setup.nsis.zip"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5Ujd0aHgxWUhnNFZEdVlIYzlZYTl4VVhYSHd0WmpOR29Xb0MwYktZQ243Yy83NHkyQkIyVkNIdlJOdWpVYktzSldLdzZYNzBQbU5NalAxdUlNN2NUc1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAyMjkyCWZpbGU6QXh4aXN0U3RlYW1fMS4xLjNfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmVrdXpNSkp1RGJWZnQ2T3M3eEFGTzU0aEFuQVFCOVZ2dExldnBkR2F3TjNTYlpNc01xaGxPSjVFNUx4eEJQaVdtUUUyc1F0eXkwSzUyMlVLZFh1akFnPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRanVtNjg3cFI5UjFFdXZBUWhjOTd1dEhMSkpWWVpOSGtlN1pQYzdOVi9lM09ZSTNrRjZjYkVURzJpaWM5dGh6eVZNb2taRVlnbFptU1dXdFd5QVd1QUJsOWdpRk9HZXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA1MDkwCWZpbGU6QXh4aXN0U3RlYW1fMS4xLjNfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmRMRUxoZkFxZFp5UFBnMGtKKzVaUVVCRmNHaHdIMmhJTkUxMHh1S253Ym1TN01rQ3FBL1lZSzRyMm1IVnIrSE1mM1ZIM05ERHU0UWFxVkw5cWhEaEJ3PT0K",
       "url": "https://github.com/useeyes/AxxistSteam-releases/releases/download/v1.1.3/AxxistSteam_1.1.3_amd64.AppImage.tar.gz"
     }
   },
